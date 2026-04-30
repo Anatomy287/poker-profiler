@@ -1,13 +1,4 @@
- """
-  Airtable API client. All Airtable calls go through this module.
-
-  Table names (must match exactly in Airtable):
-    - "Players"
-    - "Hand Histories"
-    - "Scouting Reports"
-  """
-
-  from datetime import date
+from datetime import date
   import streamlit as st
   from pyairtable import Api
 
